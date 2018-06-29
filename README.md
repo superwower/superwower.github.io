@@ -8,6 +8,16 @@ superwowerのgithub page用レポジトリです。
 - Gem
 - gcc, make
 
+# Development
+ローカルで開発するための準備、必要に応じてsudoなどをつけてください。
+```
+$ git clone https://github.com/superwower/superwower.github.io.git
+$ cd superwower.github.io
+$ gem install bundler jekyll
+$ bundle install
+$ bundle exec jekyll serve
+```
+
 # Contribution
 プルリクを投げてください。
 
