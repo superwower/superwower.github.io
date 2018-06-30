@@ -24,6 +24,13 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: superwower
 username: superwower
+members: 
+  - name    : hitochan777
+    image   : https://avatars0.githubusercontent.com/u/6002787
+  - name    : watagashi
+    image   : https://avatars1.githubusercontent.com/u/350677
+  - name    : kut-arika
+    image   : https://avatars2.githubusercontent.com/u/5959324
 
 # Build settings
 markdown: kramdown

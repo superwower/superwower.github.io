@@ -1,6 +1,20 @@
 <div class="user-details">
   <h1> Members </h1>
 </div>
-<div>
-    TODO: ここに内容を書く
+
+{% for member in site.members %}
+{% assign modulo = forloop.index0 | modulo: 3 %}
+{% if modulo == 0 %}
+<div class="user">
+{% endif %}
+
+  <div class="member">
+    <h2>{{member.name}}</h2>
+    <img class="member-thumbnail" src="{{member.image}}" />
+  </div>
+
+{% if modulo == 2 or forloop.last == true %}
 </div>
+{% endif %}
+
+{% endfor %}
