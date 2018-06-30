@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Hitoshi Otsuki",
   "license": "MIT",
+  "scripts": {
+    "build": "gulp"
+  },
   "dependencies": {
     "browser-sync": "^2.18.6",
     "gulp": "^3.9.1",
