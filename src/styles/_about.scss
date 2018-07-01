@@ -55,7 +55,6 @@
     border: 2px solid black;
     transition: all .7s;
     &:hover, &:active {
-      color: $main;
       color: white;
       background: black;
     }
