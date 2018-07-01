@@ -11,6 +11,12 @@
   <div class="member">
     <h2>{{member.name}}</h2>
     <img class="member-thumbnail" src="{{member.image}}" />
+    <div class="member-icons">
+      <a aria-label="Github" target="_blank" href="https://github.com/{{member.name}}"><i class="icon fa fa-github-alt"></i></a>
+      {% if member.twitter %}
+      <a aria-label="Twitter" target="_blank" href="{{member.twitter}}"><i class="icon fa fa-twitter"></i></a>
+      {% endif %}
+    </div>
   </div>
 
 {% if modulo == 2 or forloop.last == true %}
