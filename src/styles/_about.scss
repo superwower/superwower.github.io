@@ -54,12 +54,7 @@
     border-radius: 50%;
     border: 2px solid black;
     transition: all .7s;
-    &:hover {
-      color: $main;
-      color: white;
-      background: black;
-    }
-    &:active {
+    &:hover, &:active {
       color: $main;
       color: white;
       background: black;
