@@ -4,7 +4,7 @@ superwowerのgithub page用レポジトリです。
 
 # Requirements
 ローカルで動作確認をする場合は以下のツールが必要です。
-- Ruby >=2.2.5
+- Ruby >=2.3.0
 - Gem
 - gcc, make
 
