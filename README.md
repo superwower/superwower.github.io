@@ -9,13 +9,24 @@ superwowerのgithub page用レポジトリです。
 - gcc, make
 
 # Development
-ローカルで開発するための準備、必要に応じてsudoなどをつけてください。
-```
+
+## ローカル開発環境
+
+必要に応じてsudoなどをつけてください。
+```bash
 $ git clone https://github.com/superwower/superwower.github.io.git
 $ cd superwower.github.io
 $ gem install bundler jekyll
 $ bundle install
 $ bundle exec jekyll serve
+```
+
+## Docker開発環境
+
+```bash
+$ git clone https://github.com/superwower/superwower.github.io.git
+$ cd superwower.github.io
+$ docker-compose -f docker-compose-dev.yaml up
 ```
 
 # After joining this team
