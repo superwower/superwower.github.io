@@ -34,6 +34,12 @@ members:
   - name    : kut-arika
     image   : https://avatars2.githubusercontent.com/u/5959324
     twitter : https://twitter.com/kut_arika
+  - name    : leslie071564
+    image   : https://avatars2.githubusercontent.com/u/6196765
+    twitter : 
+  - name    : nakao4532
+    image   : https://avatars1.githubusercontent.com/u/2323607
+    twitter : 
 
 # Build settings
 markdown: kramdown
