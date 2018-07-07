@@ -40,6 +40,9 @@ members:
   - name    : nakao4532
     image   : https://avatars1.githubusercontent.com/u/2323607
     twitter : 
+  - name    : yniu999
+    image   : https://avatars0.githubusercontent.com/u/40845863
+    twitter : 
 
 # Build settings
 markdown: kramdown
