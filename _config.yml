@@ -43,6 +43,9 @@ members:
   - name    : yniu999
     image   : https://avatars0.githubusercontent.com/u/40845863
     twitter : 
+  - name    : kawakamiakari
+    image   : https://avatars3.githubusercontent.com/u/40161355
+    twitter : https://twitter.com/___nyan
 
 # Build settings
 markdown: kramdown
